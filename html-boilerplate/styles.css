@@ -1,0 +1,41 @@
+/* Code for css */
+/* this tags directly the element so it would be all h1 */
+h1 {
+    color: red;
+}
+
+/* this is an ID. this can be only given ONCE */
+/* gotta use "#" */
+#title {
+    color: aqua;
+}
+
+/* this is a class so anything with First will be selected */
+/* gotta use the "." */
+.First {
+    color: antiquewhite;
+}
+/* example 2: */
+.Second {
+    color: green; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* here u can give two delarations if u use a comma between */
+.First, .Second {
+    font-size: 20px; 
+}
+
+/* u can chain them n uses specifc parts of the class when it has a space */
+.subsection.header {
+    color: red;
+}
+
+/* same with ID */
+.subsection#text {
+    color: blue;
+}
+
+/*  */
+
+
