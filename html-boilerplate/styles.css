@@ -36,6 +36,19 @@ h1 {
     color: blue;
 }
 
-/*  */
+/* there is something called descendant combinator so basically nesting
+in the elements. there are four types of combinators.*/
 
+.family .mom { /* this gonna make everything under mom
+                that color */
+    font-size: 20px;
+    color: blueviolet;
+}
 
+.family .mom .child { /* so this gonna get ignored */
+    color: aquamarine;
+}
+
+.family .dad .stepson{
+    font-size: 50px;
+}
