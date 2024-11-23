@@ -1,0 +1,28 @@
+/* yippie */
+
+.normal, .big, .small {
+    background-color: pink;
+}
+.normal{
+    font-size: 20px;
+}
+.big {
+    font-size: 40px;
+}
+.small {
+    font-size: 15px;
+}
+
+#two {
+    color: blue;
+    font-size: 30px;
+    background-color: white;
+    font-weight: bold;
+}
+
+#four {
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    background-color: green;
+}
